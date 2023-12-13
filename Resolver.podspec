@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
     s.frameworks = 'Foundation', 'QuartzCore'
 
-    s.dependency 'ResolverProtocol', :git => 'https://github.com/OK-mobile/ResolverProtocol.git'
+    s.dependency 'ResolverProtocol'
 end
