@@ -1,0 +1,37 @@
+PODS:
+  - Nimble (10.0.0)
+  - Quick (5.0.1)
+  - Resolver (0.1.0):
+    - ResolverProtocol
+  - ResolverProtocol (0.1.0)
+  - SwiftLint (0.52.2)
+
+DEPENDENCIES:
+  - Nimble (= 10.0.0)
+  - Quick (= 5.0.1)
+  - Resolver (from `../../Resolver/`)
+  - ResolverProtocol (from `../../ResolverProtocol/`)
+  - SwiftLint
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Nimble
+    - Quick
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  Resolver:
+    :path: "../../Resolver/"
+  ResolverProtocol:
+    :path: "../../ResolverProtocol/"
+
+SPEC CHECKSUMS:
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  Resolver: 60eff1e9c267a887d0c0d3d97d30f5745cf31f96
+  ResolverProtocol: b13b09c089d2367720ba7f532baa8a27f28bb43c
+  SwiftLint: 1ac76dac888ca05cb0cf24d0c85887ec1209961d
+
+PODFILE CHECKSUM: 3f8e4d31123ef4be1967358134cf20102a909439
+
+COCOAPODS: 1.12.1
