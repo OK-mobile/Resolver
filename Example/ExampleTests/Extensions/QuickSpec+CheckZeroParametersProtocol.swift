@@ -11,6 +11,8 @@ import Nimble
 import Resolver
 import ResolverProtocol
 
+@testable import Resolver_Example
+
 extension CheckZeroParametersProtocol where Self: QuickSpec {
 
     // MARK: - Functions

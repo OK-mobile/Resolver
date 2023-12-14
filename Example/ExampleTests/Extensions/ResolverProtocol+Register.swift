@@ -8,6 +8,8 @@
 
 import Foundation
 
+import ResolverProtocol
+
 extension ResolverProtocol {
 
     // MARK: - Types

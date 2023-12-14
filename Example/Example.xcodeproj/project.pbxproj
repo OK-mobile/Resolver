@@ -127,7 +127,7 @@
 		CE0EB1EBBB6E211064DC4A2176F43DAD /* ResolverProtocol.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ResolverProtocol.podspec; path = ../../ResolverProtocol/ResolverProtocol.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEDAFE8EDF6A4FF63A180B5398EDEB5E /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleTests/Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D4ECF60B9183ACCDDD19FB6D2BA1FFCC /* ParentClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentClass.swift; sourceTree = "<group>"; };
-		D90A81D4F047DEDEDB9CB79DB8D2BADB /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90A81D4F047DEDEDB9CB79DB8D2BADB /* Resolver_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resolver_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E623D3229272285E122E0C8547CF6879 /* TestZeroParametersSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestZeroParametersSpec.swift; sourceTree = "<group>"; };
 		E8317E6B7762EE0A10A68D4CDD1DD8FB /* TestUnsafeRegisterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestUnsafeRegisterSpec.swift; sourceTree = "<group>"; };
 		EBBAB3F3EE3452AFB09580A2C7237AAE /* CheckEmptyInstancesProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckEmptyInstancesProtocol.swift; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 		3CFAC296103E835033FA03D1A697D6F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D90A81D4F047DEDEDB9CB79DB8D2BADB /* Example.app */,
+				D90A81D4F047DEDEDB9CB79DB8D2BADB /* Resolver_Example.app */,
 				C54C315804F50F23ABF9942007A166D6 /* ExampleTests.xctest */,
 			);
 			name = Products;
@@ -402,9 +402,9 @@
 			productReference = C54C315804F50F23ABF9942007A166D6 /* ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		80B8854FD41DE361F2C1E7D6FE8C8388 /* Example */ = {
+		80B8854FD41DE361F2C1E7D6FE8C8388 /* Resolver_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E6CC7D49EEF73D390E6D947DB15B389 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildConfigurationList = 9E6CC7D49EEF73D390E6D947DB15B389 /* Build configuration list for PBXNativeTarget "Resolver_Example" */;
 			buildPhases = (
 				9DCC5ED41B1F74E663D0CD355E86075D /* [CP] Check Pods Manifest.lock */,
 				74EE0CBE789840178D4D0821A70286C7 /* Sources */,
@@ -417,9 +417,9 @@
 			);
 			dependencies = (
 			);
-			name = Example;
+			name = Resolver_Example;
 			productName = Example;
-			productReference = D90A81D4F047DEDEDB9CB79DB8D2BADB /* Example.app */;
+			productReference = D90A81D4F047DEDEDB9CB79DB8D2BADB /* Resolver_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -456,7 +456,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80B8854FD41DE361F2C1E7D6FE8C8388 /* Example */,
+				80B8854FD41DE361F2C1E7D6FE8C8388 /* Resolver_Example */,
 				01D52D8133991286D4B31C0A011B22C0 /* ExampleTests */,
 			);
 		};
@@ -667,7 +667,7 @@
 /* Begin PBXTargetDependency section */
 		6CF6F001455AB7126C4128FB74B725F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 80B8854FD41DE361F2C1E7D6FE8C8388 /* Example */;
+			target = 80B8854FD41DE361F2C1E7D6FE8C8388 /* Resolver_Example */;
 			targetProxy = EA13E41565E8DCDA4AF4F84AA284D028 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -712,7 +712,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "ExampleTests/ResolverTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resolver_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Resolver_Example";
 			};
 			name = Release;
 		};
@@ -834,7 +834,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "ExampleTests/ResolverTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example.app/Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Resolver_Example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Resolver_Example";
 			};
 			name = Debug;
 		};
@@ -911,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E6CC7D49EEF73D390E6D947DB15B389 /* Build configuration list for PBXNativeTarget "Example" */ = {
+		9E6CC7D49EEF73D390E6D947DB15B389 /* Build configuration list for PBXNativeTarget "Resolver_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3FC58E7ACFA3ED492FE8CB25F00E41EA /* Debug */,

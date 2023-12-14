@@ -11,6 +11,8 @@ import Nimble
 import Resolver
 import ResolverProtocol
 
+@testable import Resolver_Example
+
 final class TestObjcNilResultSpec: QuickSpec, CheckNilResultProtocol {
 
     // MARK: - Private properties

@@ -10,6 +10,8 @@ import Quick
 import Nimble
 import ResolverProtocol
 
+@testable import Resolver_Example
+
 final class TestObjCFromSwiftMultyScopeSpec: QuickSpec, CheckZeroParametersProtocol {
 
     // MARK: - Private properties
